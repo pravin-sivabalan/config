@@ -1,5 +1,5 @@
 puts "What is the name of the folder?"
-folder = gets.chomp
+folder = "../" + gets.chomp
 
 `mkdir #{folder} #{folder}/css #{folder}/js #{folder}/res #{folder}/res/img`
 
